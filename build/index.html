@@ -33,6 +33,17 @@
       <% }else{ %>
         <input type="checkbox" name="vaccinated">
       <% } %>
+        <button class="alert button" id="deleteButton">Delete</button>
+        <button class="success button" id="updateButton">Update</button>
+    </script>
+    <script id="new-pet-template" type="text/template">
+      <form>
+        <input type="text" placeholder="Name" id="petName" />
+        <input type="text" placeholder="Breed" id="petBreed" />
+        <input type="text" placeholder="Age" id="petAge" />
+        <input type="checkbox" name="newPetVaccinated" id="newPetVaccinated">
+        <button class="button" id="savePet">Save</button>
+      </form>
     </script>
 
     <script src="/app.bundle.js"></script>
