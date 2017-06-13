@@ -1,7 +1,16 @@
 # Backbone with Pets API
 
-Create a single page application, using backbone, to interact with the [Pets API](https://github.com/AdaGold/pets_api).
+Create a single page application, using backbone, to interact with the [Pets API](https://github.com/AdaGold/pets_api). Instead of having static data written in app.js and losing data any data entered through the browser,   
 
+This is an exercise to practice integrating an API into a backbone application while building the model, controller and views. This exercise will not be turned in.
+
+### Learning Goals
+- Review creating backbone components
+  - Models
+  - Controllers
+  - Views
+- Use backbone to read data from an API
+- Create and update data to an API, through backbone
 
 ### Setup
 - Fork and clone this repository
